@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+chest_xray/
+static/uploads/
+cnn_pneumonia_model.h5
+*.keras
