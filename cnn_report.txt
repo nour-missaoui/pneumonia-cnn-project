@@ -1,0 +1,22 @@
+CNN Pneumonia Detection Report
+========================================
+
+Test Loss: 0.6253
+Test Accuracy: 0.7965
+Precision: 0.7594
+Recall: 0.9872
+F1-score: 0.8584
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.96      0.48      0.64       234
+   PNEUMONIA       0.76      0.99      0.86       390
+
+    accuracy                           0.80       624
+   macro avg       0.86      0.73      0.75       624
+weighted avg       0.83      0.80      0.78       624
+
+Confusion Matrix:
+[[112 122]
+ [  5 385]]
